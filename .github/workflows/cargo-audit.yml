@@ -1,0 +1,24 @@
+name: Cargo Audit
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'apps/watcher/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'apps/watcher/**'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install cargo-audit
+      run: cargo install cargo-audit
+
+    - name: Run cargo-audit
+      working-directory: ./apps/watcher
+      run: cargo audit
