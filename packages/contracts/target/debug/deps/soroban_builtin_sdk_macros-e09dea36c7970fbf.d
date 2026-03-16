@@ -1,7 +1,0 @@
-/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/soroban_builtin_sdk_macros-e09dea36c7970fbf.d: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_fn.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_type.rs
-
-/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libsoroban_builtin_sdk_macros-e09dea36c7970fbf.so: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_fn.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_type.rs
-
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/lib.rs:
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_fn.rs:
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-builtin-sdk-macros-22.1.3/src/derive_type.rs:

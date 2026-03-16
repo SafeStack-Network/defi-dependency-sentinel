@@ -137,3 +137,4 @@ packages/contracts/broadcast/
 # IDE
 .vscode/
 .idea/
+packages/contracts/target/

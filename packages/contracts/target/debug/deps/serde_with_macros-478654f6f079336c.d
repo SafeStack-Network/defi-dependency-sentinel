@@ -1,8 +1,0 @@
-/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/serde_with_macros-478654f6f079336c.d: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/apply.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lazy_bool.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/utils.rs
-
-/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libserde_with_macros-478654f6f079336c.so: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/apply.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lazy_bool.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/utils.rs
-
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lib.rs:
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/apply.rs:
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/lazy_bool.rs:
-/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.18.0/src/utils.rs:
