@@ -1,0 +1,10 @@
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/autocfg-2baaa58c24c54262.d: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libautocfg-2baaa58c24c54262.rlib: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libautocfg-2baaa58c24c54262.rmeta: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs:
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs:
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs:
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs:

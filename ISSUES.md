@@ -17,7 +17,7 @@ Issues requiring a solid understanding of a single specific framework within the
 
 - **[Frontend] Implement Web3 Login:** Connect `wagmi` and `viem` to the Next.js dashboard to allow users to authenticate with their wallets.
 - **[Watcher] OSV.dev Fetching Loop:** Implement the actual HTTP fetching logic to the OSV API using the established Tokio worker pool.
-- **[Contracts] Foundry Test Suite:** Write the base `forge` tests for `DripsSentinel.sol` to verify owner unlocking modifiers.
+- **[Contracts] Soroban Test Suite:** Write the base `cargo` tests for the `DripsSentinel` contract to verify owner unlocking modifiers.
 - **[API] Dashboard Mock Data:** Replace the hardcoded `api/inventory` mock data with an in-memory SQLite (or Prisma stub) implementation.
 
 ## 🔴 High (200 pts)
@@ -25,5 +25,5 @@ Complex issues that bridge multiple layers of the monorepo or require deep domai
 
 - **[Watcher] Risk Score Implementation:** Implement the core Risk-to-Drip math: `(CVSS * TVL_Exposure) / Current_Drip_Rate` in Rust to calculate active threat levels.
 - **[API] Drips SDK Integration:** Fully implement the `/api/drips/split` endpoint using the native JavaScript `@drips/sdk` to execute driver functions.
-- **[Contracts] Drips v2 IDriver Connection:** Update `DripsSentinel.sol` to actually interact with the mainnet Drips v2 contracts and correctly route funds.
+- **[Contracts] Drips v2 IDriver Connection:** Update the `DripsSentinel` Soroban contract to correctly structure cross-contract calls and route funds.
 - **[Watcher] GitHub Advisory Verification:** Implement logic to query the GitHub Advisory API to cross-verify OSV data.

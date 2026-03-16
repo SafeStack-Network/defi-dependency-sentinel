@@ -1,0 +1,9 @@
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/soroban_spec_rust-bb63fa0115172faa.d: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/trait.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/types.rs
+
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libsoroban_spec_rust-bb63fa0115172faa.rlib: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/trait.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/types.rs
+
+/home/preciousakpan/development/web3/stellarWaveDrips/maintainer/defi-dependency-sentinel/packages/contracts/target/debug/deps/libsoroban_spec_rust-bb63fa0115172faa.rmeta: /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/lib.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/trait.rs /home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/types.rs
+
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/lib.rs:
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/trait.rs:
+/home/preciousakpan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/soroban-spec-rust-22.0.11/src/types.rs:

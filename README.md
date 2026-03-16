@@ -19,7 +19,7 @@ This project is structured as a `pnpm` workspace powered by Turborepo.
 - **Node.js** (v18+)
 - **pnpm** (v9+)
 - **Rust** & Cargo (`rustup` recommended)
-- **Foundry** (`forge`)
+- **Stellar CLI** (`cargo install --locked stellar-cli`)
 
 ### Installation & Execution
 
@@ -50,8 +50,8 @@ This project is structured as a `pnpm` workspace powered by Turborepo.
 5. **Build/Test Smart Contracts:**
    ```bash
    cd packages/contracts
-   forge build
-   forge test
+   stellar contract build
+   cargo test
    ```
 
 ### 🤝 Contributing

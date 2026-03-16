@@ -18,17 +18,17 @@ The goal is to monitor DeFi dependencies for vulnerabilities and automatically r
 - `/apps/watcher`: **Rust (Tokio + Axum)**. The "Intelligence Layer." Scans repos, queries OSV.dev/GitHub Advisory, and calculates Risk Scores.
 - `/apps/api`: **Node.js (Hono/TypeScript)**. The "Communication Layer." Interfaces with Drips SDK and serves the dashboard.
 - `/apps/dashboard`: **Next.js 15 (App Router)**. The "Interface Layer." DAO treasury risk management.
-- `/packages/contracts`: **Solidity (Foundry)**. `DripsSentinel.sol` for "Security Split" logic and bounty buffers.
+- `/packages/contracts`: **Rust (Soroban)**. `DripsSentinel` for "Security Split" logic and bounty buffers.
 
 ### B. Core Logic & Formulas
 The Watcher must calculate a **Risk-to-Drip Score**:
 $$Risk = \frac{CVSS \times TVL\_Exposure}{Current\_Drip\_Rate}$$
 
 ## 4. Immediate Agent Tasks
-1. **Scaffold:** Execute the monorepo structure with pnpm, Turborepo, and Foundry.
-2. **Rust Setup:** Initialize the `/apps/watcher` with `alloy-rs`, `tokio`, `serde`, and `axum`.
-3. **Smart Contracts:** Scaffold a contract that implements the Drips v2 `IDriver` interface.
-4. **CI/CD:** Setup GitHub Actions for **Slither** and **Cargo Audit**.
+1. **Scaffold:** Execute the monorepo structure with pnpm, Turborepo, and Soroban.
+2. **Rust Setup:** Initialize the `/apps/watcher` with `tokio`, `serde`, and `axum`.
+3. **Smart Contracts:** Scaffold a Soroban contract that implements the Drips v2 `IDriver` interface logic.
+4. **CI/CD:** Setup GitHub Actions for **Soroban Tests** and **Cargo Audit**.
 
 ## 5. Security Principles
 - **Self-Scanning:** Sentinel must pass its own scans. Use OpenSSF Scorecards.

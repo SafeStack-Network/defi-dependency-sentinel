@@ -1,0 +1,25 @@
+name: Soroban Smart Contract Tests
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'packages/contracts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'packages/contracts/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        target: wasm32-unknown-unknown
+    - name: Run Contract Tests
+      run: |
+        cd packages/contracts
+        cargo test
