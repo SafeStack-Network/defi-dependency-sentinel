@@ -9,3 +9,51 @@ In 2026, DeFi security is only as strong as its weakest dependency. Sentinel Pro
 - **Risk-to-Funding Formulas:** Automated funding suggestions based on CVE data.
 - **Sentinel Dashboard:** Real-time security health for DAO treasuries.
 - **Emergency Triggers:** Automated bounty streams for critical security patches.
+
+## 🛠 Getting Started
+
+This project is structured as a `pnpm` workspace powered by Turborepo.
+
+### Prerequisites
+
+- **Node.js** (v18+)
+- **pnpm** (v9+)
+- **Rust** & Cargo (`rustup` recommended)
+- **Foundry** (`forge`)
+
+### Installation & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SafeStack-Network/defi-dependency-sentinel
+   cd defi-dependency-sentinel
+   ```
+
+2. **Install all workspace dependencies:**
+   ```bash
+   pnpm install
+   ```
+
+3. **Start the development servers (Dashboard & API):**
+   ```bash
+   pnpm dev
+   ```
+   - Dashboard: `http://localhost:3000`
+   - API: `http://localhost:3001`
+
+4. **Run the Rust Watcher Service:**
+   ```bash
+   cd apps/watcher
+   cargo run
+   ```
+
+5. **Build/Test Smart Contracts:**
+   ```bash
+   cd packages/contracts
+   forge build
+   forge test
+   ```
+
+### 🤝 Contributing
+
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed point breakdowns.
