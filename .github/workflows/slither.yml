@@ -1,0 +1,23 @@
+name: Slither Analysis
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'packages/contracts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'packages/contracts/**'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run Slither
+      uses: crytic/slither-action@v0.4.0
+      with:
+        target: 'packages/contracts'
+        slither-args: '--exclude-dependencies'
