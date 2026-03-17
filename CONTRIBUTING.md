@@ -2,7 +2,7 @@
 
 Welcome to the Sentinel Protocol! We are excited to have you contribute to the future of open-source sustainability.
 
-We are currently participating in the **Drips Wave 2026** program. By contributing to this repository, you may be eligible to earn points in the wider Drips Network ecosystem based on the complexity and impact of your PRs:
+By contributing to this repository, you may be eligible to earn points based on the complexity and impact of your PRs:
 
 - **Trivial:** 100 pts (e.g., documentation typos, simple formatting)
 - **Medium:** 150 pts (e.g., bug fixes, adding new API endpoints, basic UI components)

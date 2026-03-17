@@ -1,6 +1,4 @@
-# 📋 Project Issues & Bounties (Drips Wave 2026)
-
-This document outlines the initial set of issues available for contributors. Once the project is approved for the Drips Wave program, these will be converted into proper GitHub Issues.
+# 📋 Project Issues & Bounties
 
 Points are awarded based on the difficulty tier, as defined in `CONTRIBUTING.md`.
 
