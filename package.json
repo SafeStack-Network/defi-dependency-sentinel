@@ -11,5 +11,8 @@
     "turbo": "^2.0.0",
     "typescript": "^5.0.0"
   },
-  "packageManager": "pnpm@9.0.0"
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "react-hot-toast": "^2.6.0"
+  }
 }
