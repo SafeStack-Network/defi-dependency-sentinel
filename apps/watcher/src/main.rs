@@ -1,9 +1,11 @@
+mod risk;
+
 use axum::{
-    extract::{Path, State},
-    routing::get,
+    extract::State,
+    routing::{get, post},
     Json, Router,
 };
-use serde::Serialize;
+use risk::{calculate_risk_score, RiskInput, RiskScore};
 use std::sync::Arc;
 use tokio::sync::mpsc;
 use tokio::time::{sleep, Duration};
@@ -12,29 +14,11 @@ struct AppState {
     // Add shared state here
 }
 
-#[derive(Serialize)]
-struct RiskScoreResponse {
-    cve_id: String,
-    score: u32,
-}
-
-// Risk-to-Drip Formula: (CVSS * TVL_Exposure) / Current_Drip_Rate
-fn calculate_risk_score(cve_id: &str) -> u32 {
-    // Mock risk calculation logic
-    println!("Calculating Risk-to-Drip Score for {}", cve_id);
-    match cve_id {
-        "OSV-2026-001" => 450, // High severity / high exposure
-        "GHSA-xxxx-yyyy" => 120, // Medium severity
-        _ => 50,                // Baseline
-    }
-}
-
 async fn get_risk_score(
     State(_state): State<Arc<AppState>>,
-    Path(cve_id): Path<String>,
-) -> Json<RiskScoreResponse> {
-    let score = calculate_risk_score(&cve_id);
-    Json(RiskScoreResponse { cve_id, score })
+    Json(input): Json<RiskInput>,
+) -> Json<RiskScore> {
+    Json(calculate_risk_score(&input))
 }
 
 #[tokio::main]
@@ -60,7 +44,7 @@ async fn main() {
 
     let app = Router::new()
         .route("/health", get(|| async { "OK" }))
-        .route("/risk/:cve_id", get(get_risk_score))
+        .route("/risk/calculate", post(get_risk_score))
         .with_state(shared_state);
 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
